@@ -5,11 +5,11 @@ By utilizing the .htaccess file RewriteEngine, we route any HTTP request as a st
 
 It is **absolutely necessary** to have GMP math functions package installed and configured in your php.ini.
 
-For linux users, it is as simple as 
+For Ubuntu Linux users, it is as simple as 
 
 ```
 yes | sudo apt-get install php-gmp
 echo extension=php_gmp.so >> /etc/php/YOUR_PHP_VERSION/apache2/php.ini
 ```
 
-It is also necessary to have set ```AllowOverride all``` of your .htaccess in a given directory.
+It is also necessary to have set ```AllowOverride all``` in your master .htaccess file.
