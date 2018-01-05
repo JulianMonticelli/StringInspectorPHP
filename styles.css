@@ -1,0 +1,38 @@
+
+
+head {
+    font-family: Verdana;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Verdana;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+#centered {
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.outer {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    padding: 5px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
